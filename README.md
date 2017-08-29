@@ -1,6 +1,6 @@
 # Site for the Mood
 
-[TODO. There will be project description]
+Displays jokes on the screen
 
 # Project Goals
 

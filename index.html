@@ -1,25 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Настроение</title>
-  <script id="quotes_json" type="application/json">
-    [
-      {
-        "phrase": "Кукурузные хлопья - теперь без асбеста!",
-        "signature": "©Неизвестный маркетолог"
-      },
-      {
-        "phrase": "Собираюсь жить вечно, пока всё идёт нормально"
-      },
-      {
-        "phrase": "Вывеска над кафе — '\u003cМы открылись\u003e'. Что-то не так. Где же '\u003c/Мы открылись\u003e'?"
-      },
-      {
-        "phrase": "Если ты будешь усердно работать по 8 часов в день, то обязательно станешь боссом и начнешь работать по 12"
-      }
-    ]
-  </script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Хорошее Настроение</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" charset="utf-8"></script>
 </head>
 <body>
+  <h2>Хорошее Настроение</h2>
+  <div class="main">
+    <h1 id="phrase">Тут будет шутка... просто нажми кнопку!</h1>
+    <button  class="change_button" type="button" name="button" onclick="jokeChoice()">Нажми сюда</button>
+  </div>
 </body>
 </html>

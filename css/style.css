@@ -1,0 +1,28 @@
+
+  body{
+    overflow: hidden;
+    text-align: center;
+  }
+  .main{
+    height: 100vh;
+  }
+  #phrase{
+    margin-top: 40vh;
+  }
+  .change_button{
+    margin-top: 10px;
+    padding: 10px;
+    color: #fff;
+    background-color: #f6a405;
+    border: 1px solid #f68005;
+    border-radius:  10px;
+    box-shadow: 4px 4px 4px #988064;
+    font-size: 20px;
+  }
+  .change_button:hover{
+    background-color:#f68005;
+    box-shadow: 2px 2px 2px #988064;
+  }
+  .change_button:focus{
+    outline: none;
+  }
